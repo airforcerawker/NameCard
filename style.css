@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #70e1f57e, #c47b1c65), url("mountains2.jpg");
+    background-size: 1920px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 550px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 190px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, 
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.top {
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 170px;
+    width: 170px;
+    border: 20px solid whitesmoke;
+    border-radius: 90px;
+    position: relative;
+    top: 75px;
+}
+
+.image img {
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.info {
+    line-height: 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    opacity: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links {
+    opacity: 50%;
+    margin-top: 15px;
+}
+
+.links span {
+    transition: .3s ease;
+}
+
+.links span:hover {
+    color: #c47b1c;
+}
+
